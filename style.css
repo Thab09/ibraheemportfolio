@@ -17,6 +17,7 @@ body {
   flex-direction: center;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .container-box {
@@ -27,8 +28,16 @@ body {
   color: white;
 }
 
+.burger {
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
 nav.navbar {
-  text-align: center;
   margin: 85px 0px;
 }
 
